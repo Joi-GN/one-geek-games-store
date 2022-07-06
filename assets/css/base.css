@@ -5,11 +5,26 @@
   --brand-grey: #A2A2A2;
 }
 
-* {
-  font-family: 'Ubuntu', sans-serif;
-}
-
 body {
   background-color: var(--brand-light);
+  font-family: 'Ubuntu', sans-serif;
   scroll-behavior: smooth;
+}
+
+@media screen and (min-width: 0) {
+  .container {
+    padding: 2rem 1rem;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .container {
+    padding: 2rem 2rem;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .container {
+    padding: 2rem 8rem;
+  }
 }

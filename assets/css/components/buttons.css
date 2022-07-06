@@ -1,0 +1,32 @@
+.button {
+  font-size: 1rem;
+  transition: .3s ease;
+  height: 50px;
+  width: 182px;
+}
+
+.light-button {
+  background-color: var(--brand-light);
+  border: 1px solid var(--brand-color);
+  color: var(--brand-color);
+}
+
+.light-button:hover {
+  background-color: var(--brand-color);
+  border: none;
+  color: var(--brand-light);
+  font-weight: 500;
+}
+
+.dark-button {
+  background-color: var(--brand-color);
+  border: none;
+  color: var(--brand-light);
+  font-weight: 500;
+}
+
+.dark-button:hover {
+  background-color: var(--brand-light);
+  border: 1px solid var(--brand-color);
+  color: var(--brand-color);
+}

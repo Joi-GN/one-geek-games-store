@@ -1,0 +1,22 @@
+.hero__banner {
+  background: linear-gradient(0deg, #000000c9 0%, #00000072 49%, #0000000e 100%), url('../img/mario-figures.jpg') no-repeat center / cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  gap: 1rem;
+  height: 450px;
+}
+
+.hero__banner__title,
+.hero__banner__subtitle {
+  color: var(--brand-light);
+  font-weight: 500;
+}
+
+.hero__banner__title {
+  font-size: 4rem;
+}
+
+.hero__banner__subtitle {
+  font-size: 1.5rem;
+}
