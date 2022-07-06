@@ -1,0 +1,15 @@
+:root {
+  --brand-color: #17C247;
+  --brand-light: #FFF;
+  --brand-light-1: #F5F5F5;
+  --brand-grey: #A2A2A2;
+}
+
+* {
+  font-family: 'Ubuntu', sans-serif;
+}
+
+body {
+  background-color: var(--brand-light);
+  scroll-behavior: smooth;
+}
