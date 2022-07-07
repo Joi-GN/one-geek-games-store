@@ -2,11 +2,35 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-  height: 115px;
+  min-height: 115px;
 }
 
-.header__content {
-  display: flex;
-  align-items: center;
-  gap: 2rem;
+@media screen and (min-width: 0) {
+  .header__login-button {
+    width: 70px;
+  }
+}
+
+@media screen and (min-width: 375px) {
+  .header__login-button {
+    width: 100px;
+  }
+}
+
+@media screen and (min-width: 425px) {
+  .header__login-button {
+    width: 130px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .header__login-button {
+    width: 160px;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .header__login-button {
+    width: 180px;
+  }
 }

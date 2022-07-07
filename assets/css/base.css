@@ -4,12 +4,14 @@
   --brand-light-1: #F5F5F5;
   --brand-light-2: #eefdea;
   --brand-grey: #A2A2A2;
+  --text-color: #000;
 }
 
 body {
   background-color: var(--brand-light);
   font-family: 'Ubuntu', sans-serif;
   scroll-behavior: smooth;
+  color: var(--text-color);
 }
 
 @media screen and (min-width: 0) {
