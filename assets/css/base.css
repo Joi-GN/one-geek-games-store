@@ -1,9 +1,10 @@
 :root {
   --brand-color: #17C247;
+  --brand-color-light: #eefdea;
   --brand-light: #FFF;
   --brand-light-1: #F5F5F5;
-  --brand-light-2: #eefdea;
   --brand-grey: #A2A2A2;
+  --brand-light-grey: #f4f5f3;
   --text-color: #000;
 }
 

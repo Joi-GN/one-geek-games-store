@@ -1,5 +1,5 @@
 .footer {
-  background: var(--brand-light-2);
+  background: var(--brand-color-light);
 }
 
 .footer__content__div {
@@ -14,38 +14,6 @@
 
 .footer__links__link:hover {
   text-decoration: underline;
-}
-
-.footer__form {
-  display: flex;
-  flex-direction: column;
-  gap: .8rem;
-}
-
-.footer__form__field {
-  display: block;
-}
-
-.footer__form__legend {
-  font-weight: 500;
-}
-
-.footer__form__field__label,
-.footer__form__field__input {
-  background-color: var(--brand-light);
-  border: none;
-  display: block;
-  font-family: 'Ubuntu', sans-serif;
-  padding: .5rem 1rem;
-  width: 100%;
-}
-
-.footer__form__field__input:focus {
-  outline: none;
-}
-
-.footer__form__field__input--textarea {
-  resize: none;
 }
 
 .footer__dev-name {

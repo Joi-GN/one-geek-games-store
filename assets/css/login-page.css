@@ -1,0 +1,35 @@
+.login-page {
+  background-color: var(--brand-light-grey);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 450px;
+}
+
+.login-page__form .form__legend {
+  text-align: center;
+}
+
+.login-form__submit.button {
+  font-weight: 700;
+  max-width: initial;
+  width: 100%;
+}
+
+@media screen and (min-width: 0) {
+  .login-page__form.form {
+    width: 80%;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .login-page__form.form {
+    width: 33.33%;
+  } 
+}
+
+@media screen and (min-width: 1024px) {
+  .login-page__form.form {
+    width: 25%;
+  }
+}

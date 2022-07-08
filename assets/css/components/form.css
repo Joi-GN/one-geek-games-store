@@ -1,0 +1,31 @@
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: .8rem;
+}
+
+.form__field {
+  display: block;
+}
+
+.form__legend {
+  font-weight: 500;
+}
+
+.form__field__label,
+.form__field__input {
+  background-color: var(--brand-light);
+  border: none;
+  display: block;
+  font-family: 'Ubuntu', sans-serif;
+  padding: .5rem;
+  width: 100%;
+}
+
+.form__field__input:focus {
+  outline: none;
+}
+
+.form__field__input--textarea {
+  resize: none;
+}
