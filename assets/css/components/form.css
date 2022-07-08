@@ -6,6 +6,7 @@
 
 .form__field {
   display: block;
+  position: relative;
 }
 
 .form__legend {
@@ -14,12 +15,38 @@
 
 .form__field__label,
 .form__field__input {
+  display: block;
+  font-size: 1rem;
+  font-family: 'Ubuntu', sans-serif;
+}
+
+.form__field__label {
+  color: var(--brand-grey-1);
+  font-size: 1rem;
+  position: absolute;
+  top: .9rem;
+  left: .5rem;
+  transition: all .25s;
+}
+
+.form__field__input:not(:placeholder-shown) + .form__field__label,
+.form__field__input:focus + .form__field__label {
+  font-size: .8rem;
+  top: .3rem;
+}
+
+.form__field__input {
   background-color: var(--brand-light);
   border: none;
-  display: block;
-  font-family: 'Ubuntu', sans-serif;
-  padding: .5rem;
+  border-bottom: 1px solid var(--brand-grey);
+  border-radius: 2px;
+  padding: .8rem .5rem .2rem;
+  height: 3rem;
   width: 100%;
+}
+
+.form__field__input::placeholder {
+  visibility: hidden;
 }
 
 .form__field__input:focus {
@@ -27,5 +54,7 @@
 }
 
 .form__field__input--textarea {
+  height: 120px;
+  padding-top: 1.2rem;
   resize: none;
 }

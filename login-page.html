@@ -48,15 +48,15 @@
     <button class="header__show-searchbox-mobile"><i class="fa-solid fa-magnifying-glass"></i></button>
   </header>
   <main class="login-page">
-    <form action="" class="login-page__form form">
+    <form action="./all-products.html" class="login-page__form form">
       <legend class="form__legend">Iniciar Sessão</legend>
       <div class="form__field">
-        <label for="email" class="form__field__label"></label>
-        <input type="email" name="email" id="email" class="form__field__input" placeholder="Email">
+        <input type="email" name="email" id="email" class="form__field__input" placeholder="Email" minlength="4" maxlength="40" required>
+        <label for="email" class="form__field__label">Email</label>
       </div>
       <div class="form__field">
-        <label for="password" class="form__field__label"></label>
-        <input type="password" name="password" id="password" class="form__field__input" placeholder="Senha">
+        <input type="password" name="password" id="password" class="form__field__input" placeholder="Senha" minlength="4" maxlength="20" required>
+        <label for="password" class="form__field__label">Senha</label>
       </div>
       <button type="submit" class="login-form__submit button dark-button">Entrar</button>
     </form>
@@ -102,12 +102,12 @@
       <form action="" class="footer__form form">
         <legend class="form__legend">Fale conosco</legend>
         <div class="form__field">
+          <input type="text" name="name" id="name" class="form__field__input" minlength="3" maxlength="50" placeholder="Nome" required>
           <label for="name" class="form__field__label">Nome</label>
-          <input type="text" name="name" id="name" class="form__field__input" minlength="3" maxlength="50" placeholder="Digite seu nome" required>
         </div>
         <div class="form__field">
+          <textarea name="message" id="message" cols="30" rows="7" class="form__field__input form__field__input--textarea" minlength="5" maxlength="300" placeholder="Mensagem" required></textarea>
           <label for="message" class="form__field__label">Mensagem</label>
-          <textarea name="message" id="message" cols="30" rows="7" class="form__field__input footer__form__field__input--textarea" minlength="5" maxlength="300" placeholder="Digite sua mensagem" required></textarea>
         </div>
         <button type="submit" class="form__submit button dark-button">Enviar mensagem</button>
       </form>

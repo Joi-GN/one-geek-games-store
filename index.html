@@ -238,12 +238,12 @@
       <form action="" class="footer__form form">
         <legend class="form__legend">Fale conosco</legend>
         <div class="form__field">
+          <input type="text" name="name" id="name" class="form__field__input" minlength="3" maxlength="50" placeholder="Nome" required>
           <label for="name" class="form__field__label">Nome</label>
-          <input type="text" name="name" id="name" class="form__field__input" minlength="3" maxlength="50" placeholder="Digite seu nome" required>
         </div>
         <div class="form__field">
+          <textarea name="message" id="message" cols="30" rows="7" class="form__field__input form__field__input--textarea" minlength="5" maxlength="300" placeholder="Mensagem" required></textarea>
           <label for="message" class="form__field__label">Mensagem</label>
-          <textarea name="message" id="message" cols="30" rows="7" class="form__field__input footer__form__field__input--textarea" minlength="5" maxlength="300" placeholder="Digite sua mensagem" required></textarea>
         </div>
         <button type="submit" class="form__submit button dark-button">Enviar mensagem</button>
       </form>
