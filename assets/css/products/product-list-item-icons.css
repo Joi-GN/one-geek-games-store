@@ -1,0 +1,27 @@
+.product__list__item__icons {
+  color: var(--brand-light);
+  position: absolute;
+  right: .5rem;
+  top: .5rem;
+}
+
+.product__list__item__button {
+  background: transparent;
+  border: none;
+  transition: .5s linear;
+}
+
+.product__list__item__button:hover {
+  font-size: 1rem;
+}
+
+.product__list__item__icons__delete:active,
+.product__list__item__icons__edit:active {
+  color: var(--brand-color);
+}
+
+.product__list__item__icons__delete,
+.product__list__item__icons__edit {
+  cursor: pointer;
+  color: var(--brand-light);
+}
