@@ -13,6 +13,7 @@
   <link rel="stylesheet" href="../assets/css/header/header.css">
   <link rel="stylesheet" href="../assets/css/header/header-search-box.css">
   <link rel="stylesheet" href="../assets/css/header/section-header.css">
+  <link rel="stylesheet" href="../assets/css/add-new-product.css">
   <link rel="stylesheet" href="../assets/css/footer.css">
   <link rel="stylesheet" href="../assets/css/components/header-titles.css">
   <link rel="stylesheet" href="../assets/css/components/form.css">
@@ -91,17 +92,19 @@
           </li>
         </ul>
       </div>
-      <form action="" class="footer__form form">
+      <form action="" class="footer__form form" data-form>
         <legend class="form__legend">Fale conosco</legend>
         <div class="form__field">
-          <input type="text" name="name" id="name" class="form__field__input" minlength="3" maxlength="50" placeholder="Nome" required>
+          <input type="text" name="name" id="name" class="form__field__input" minlength="3" maxlength="40" placeholder="Nome" data-type="name" required>
           <label for="name" class="form__field__label">Nome</label>
+          <span class="form__field__error" data-error></span>
         </div>
         <div class="form__field">
-          <textarea name="message" id="message" cols="30" rows="7" class="form__field__input form__field__input--textarea" minlength="5" maxlength="300" placeholder="Mensagem" required></textarea>
+          <textarea name="message" id="message" cols="30" rows="7" class="form__field__input form__field__input--textarea" minlength="5" maxlength="120" placeholder="Mensagem" data-type="message" required></textarea>
           <label for="message" class="form__field__label">Mensagem</label>
+          <span class="form__field__error" data-error></span>
         </div>
-        <button type="submit" class="form__submit button dark-button">Enviar mensagem</button>
+        <button type="submit" class="form__submit button dark-button" data-type="submit" disabled>Enviar mensagem</button>
       </form>
     </div>
     <div class="footer__dev-name container">
@@ -109,6 +112,7 @@
     </div>
   </footer>
   <script src="https://kit.fontawesome.com/9555ff22ed.js" crossorigin="anonymous"></script>
+  <script type="module" src="../assets/js/main.js"></script>
 </body>
 
 </html>

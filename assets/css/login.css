@@ -11,25 +11,24 @@
 }
 
 .form__submit.button {
-  font-weight: 700;
   max-width: initial;
   width: 100%;
 }
 
 @media screen and (min-width: 0) {
-  .login__form.form {
+  .login__form {
     width: 80%;
   }
 }
 
 @media screen and (min-width: 768px) {
-  .login__form.form {
+  .login__form {
     width: 33.33%;
   } 
 }
 
 @media screen and (min-width: 1024px) {
-  .login__form.form {
+  .login__form {
     width: 25%;
   }
 }

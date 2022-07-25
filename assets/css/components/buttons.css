@@ -1,5 +1,6 @@
 .button {
   font-size: 1rem;
+  font-weight: 500;
   height: 50px;
   max-width: 182px;
   transition: .3s ease;
@@ -15,14 +16,13 @@
   background-color: var(--brand-color);
   border: none;
   color: var(--brand-light);
-  font-weight: 500;
 }
 
 .dark-button {
   background-color: var(--brand-color);
   border: none;
   color: var(--brand-light);
-  font-weight: 500;
+  
 }
 
 .dark-button:hover {

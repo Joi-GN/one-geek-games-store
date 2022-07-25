@@ -26,13 +26,21 @@
   position: absolute;
   top: .9rem;
   left: .5rem;
-  transition: all .25s;
+  transition: all .40s ease;
+}
+
+.form__field__input.invalid ~ .form__field__label {
+  color: var(--invalid);
 }
 
 .form__field__input:not(:placeholder-shown) + .form__field__label,
 .form__field__input:focus + .form__field__label {
   font-size: .8rem;
   top: .3rem;
+}
+
+.form__field__input.invalid:focus + .form__field__label {
+  color: var(--invalid);
 }
 
 .form__field__input {
@@ -53,8 +61,26 @@
   outline: none;
 }
 
+
 .form__field__input--textarea {
-  height: 120px;
+  height: 80px;
   padding-top: 1.2rem;
   resize: none;
+}
+
+.form__field__input.invalid {
+  border: 1px solid var(--invalid);
+}
+
+.form__field__error {
+  color: var(--invalid);
+  font-size: .8rem;
+  position: absolute;
+  top: 1rem;
+  right: .5rem;
+}
+
+.form__submit:disabled {
+  cursor: not-allowed;
+  opacity: 0.5;
 }
