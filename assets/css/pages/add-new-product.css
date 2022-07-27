@@ -1,0 +1,31 @@
+.add-product {
+  background-color: var(--brand-light-1);
+  padding: 5rem 0;
+}
+
+.add-product__form .form__legend {
+  font-size: 1.5rem;
+}
+
+.add-product__form .button {
+  max-width: initial;
+  width: 100%;
+}
+
+@media screen and (min-width: 0) {
+  .add-product__form {
+    width: 90%;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .add-product__form {
+    width: 80%;
+  } 
+}
+
+@media screen and (min-width: 1024px) {
+  .add-product__form {
+    width: 50%;
+  }
+}

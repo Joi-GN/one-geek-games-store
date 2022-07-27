@@ -5,6 +5,18 @@
   min-height: 115px;
 }
 
+.section-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 2rem;
+}
+
+.header__title {
+  font-size: 1.5rem;
+  font-weight: 500;
+}
+
 @media screen and (min-width: 0) {
   .header__login-button {
     width: 70px;

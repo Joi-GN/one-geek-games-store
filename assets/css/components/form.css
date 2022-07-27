@@ -1,7 +1,8 @@
 .form {
   display: flex;
   flex-direction: column;
-  gap: .8rem;
+  gap: 1rem;
+  margin: 0 auto;
 }
 
 .form__field {
@@ -24,13 +25,9 @@
   color: var(--brand-grey-1);
   font-size: 1rem;
   position: absolute;
-  top: .9rem;
+  top: 1.1rem;
   left: .5rem;
   transition: all .40s ease;
-}
-
-.form__field__input.invalid ~ .form__field__label {
-  color: var(--invalid);
 }
 
 .form__field__input:not(:placeholder-shown) + .form__field__label,
@@ -39,17 +36,13 @@
   top: .3rem;
 }
 
-.form__field__input.invalid:focus + .form__field__label {
-  color: var(--invalid);
-}
-
 .form__field__input {
   background-color: var(--brand-light);
   border: none;
   border-bottom: 1px solid var(--brand-grey);
   border-radius: 2px;
+  min-height: 3.5rem;
   padding: .8rem .5rem .2rem;
-  height: 3rem;
   width: 100%;
 }
 
@@ -61,11 +54,44 @@
   outline: none;
 }
 
-
 .form__field__input--textarea {
-  height: 80px;
-  padding-top: 1.2rem;
+  height: 6rem;
+  padding-top: 1.5rem;
   resize: none;
+}
+
+.form__field--file-input-container {
+  display: flex;
+  align-items: center;
+  min-height: 5rem;  
+  text-align: center;
+}
+
+.form__field__label--file-input {
+  cursor: pointer;
+  display: inline-block;
+  margin-bottom: .5rem;
+  padding: .7rem;
+  text-align: center;
+}
+
+.form__field__file-input {
+  display: inline-block;
+  opacity: 0;
+  width: .5rem;
+}
+
+.form__field__file-name {
+  display: block;
+  font-size: .85rem;
+  margin-bottom: .5rem;
+}
+
+/* INVALID INPUT - ERROR */
+
+.form__field__input.invalid ~ .form__field__label,
+.form__field__input.invalid:focus + .form__field__label {
+  color: var(--invalid);
 }
 
 .form__field__input.invalid {
@@ -75,12 +101,25 @@
 .form__field__error {
   color: var(--invalid);
   font-size: .8rem;
+  pointer-events: none;
   position: absolute;
-  top: 1rem;
+  top: 1.2rem;
   right: .5rem;
 }
 
 .form__submit:disabled {
   cursor: not-allowed;
   opacity: 0.5;
+}
+
+@media screen and (max-width: 415px) {
+  .form__field__input.invalid ~ .form__field__label {
+    opacity: 0;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .form__field__error--file-input {
+    position: initial; 
+  }
 }
