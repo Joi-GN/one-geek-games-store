@@ -1,5 +1,5 @@
 .hero__banner {
-  background: linear-gradient(0deg, #000000c9 0%, #00000072 49%, #0000000e 100%), url('../img/banner.jpg') no-repeat center / cover;
+  background: linear-gradient(0deg, #000000c9 0%, #00000072 49%, #0000000e 100%), url('../../img/banner.jpg') no-repeat center / cover;
   display: flex;
   flex-direction: column;
   justify-content: end;
