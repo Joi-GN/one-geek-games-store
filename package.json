@@ -1,0 +1,19 @@
+{
+  "name": "one-geek-games-store",
+  "version": "1.0.0",
+  "description": "Site E-commerce",
+  "main": "main.js",
+  "scripts": {
+    "server": "json-server --watch db.json"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Joi-GN/one-geek-games-store.git"
+  },
+  "author": "Joice Gomes",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Joi-GN/one-geek-games-store/issues"
+  },
+  "homepage": "https://github.com/Joi-GN/one-geek-games-store#readme"
+}

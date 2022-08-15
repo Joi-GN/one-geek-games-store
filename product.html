@@ -8,22 +8,23 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;500;700&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="../assets/css/reset.css">
-  <link rel="stylesheet" href="../assets/css/base.css">
-  <link rel="stylesheet" href="../assets/css/header/header.css">
-  <link rel="stylesheet" href="../assets/css/header/header-search-box.css">
-  <link rel="stylesheet" href="../assets/css/pages/login.css">
-  <link rel="stylesheet" href="../assets/css/components/form.css">
-  <link rel="stylesheet" href="../assets/css/components/buttons.css">
-  <link rel="stylesheet" href="../assets/css/components/footer.css">
+  <link rel="stylesheet" href="./assets/css/reset.css">
+  <link rel="stylesheet" href="./assets/css/base.css">
+  <link rel="stylesheet" href="./assets/css/header/header.css">
+  <link rel="stylesheet" href="./assets/css/header/header-search.css">
+  <link rel="stylesheet" href="./assets/css/products/products.css">
+  <link rel="stylesheet" href="./assets/css/products/product-list-item-icons.css">
+  <link rel="stylesheet" href="./assets/css/components/form.css">
+  <link rel="stylesheet" href="./assets/css/components/buttons.css">
+  <link rel="stylesheet" href="./assets/css/components/footer.css">
 
-  <title>ONE Geek Games Store | Login</title>
+  <title>ONE Geek Games Store | Detalhes do produto</title>
 </head>
 
 <body>
   <header class="header container">
     <h1 class="header__logo">
-      <a href="../index.html">
+      <a href="./index.html">
         <svg width=" 174" height="50" viewBox="0 0 174 50" fill="none" xmlns="http://www.w3.org/2000/svg">
         <title>ONE Geek Games Store</title>
         <path
@@ -38,30 +39,22 @@
         </svg>
       </a>
     </h1>
-    <form class="header__search-box">
-      <input type="search" name="search-input" id="search-input" class="header__search-box__input"
-        placeholder="O que deseja encontrar?">
-      <button type="submit" class="header__search-box__submit-button">
-        <i class="fa-solid fa-magnifying-glass"></i>
-      </button>
-    </form>
-    <button class="header__show-searchbox-mobile"><i class="fa-solid fa-magnifying-glass"></i></button>
+    <div class="header__search">
+      <form class="header__search-box" id="search-box">
+        <input type="search" name="search-input" id="search-input" class="header__search-box__input"
+          placeholder="O que deseja encontrar?" data-type="search">
+        <label for="search-input" class="header__search-box__label">
+          <i class="fa-solid fa-magnifying-glass"></i>
+        </label>
+      </form>
+      <div class="header__search-results" id="search-results"></div>
+    </div>
+    <a href="./login.html">
+      <button class="header__login-button button light-button">Login</button>
+    </a>
   </header>
-  <main class="login section-bg">
-    <form action="./all-products.html" class="login__form form" data-form>
-      <legend class="form__legend">Iniciar Sessão</legend>
-      <div class="form__field">
-        <input type="email" name="email" id="email" class="form__field__input" placeholder="Email" minlength="4" maxlength="40" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$" data-type="email" required>
-        <label for="email" class="form__field__label">Email</label>
-        <span class="form__field__error" data-error></span>
-      </div>
-      <div class="form__field">
-        <input type="password" name="password" id="password" class="form__field__input" placeholder="Senha" minlength="4" maxlength="20" data-type="password" required>
-        <label for="password" class="form__field__label">Senha</label>
-        <span class="form__field__error" data-error></span>
-      </div>
-      <button type="submit" class="form__submit button dark-button" data-type="submit" disabled>Entrar</button>
-    </form>
+  <main>
+    
   </main>
   <footer class="footer">
     <div class="footer__content container">
@@ -121,7 +114,7 @@
     </div>
   </footer>
   <script src="https://kit.fontawesome.com/9555ff22ed.js" crossorigin="anonymous"></script>
-  <script type="module" src="../assets/js/main.js"></script>
+  <script type="module" src="./assets/js/main.js"></script>
 </body>
 
 </html>

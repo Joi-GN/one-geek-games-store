@@ -36,6 +36,11 @@
 .product__list__item__link {
   color: var(--brand-color);
   font-weight: 500;
+  width: fit-content;
+}
+
+.product__list__item__link:hover {
+  opacity: 0.5;
 }
 
 @media screen and (min-width: 0) {

@@ -1,8 +1,12 @@
-import { validate } from "./validateForm.js";
+import { searchProduct } from "./search-product.js";
+import { validate } from "./validate-form.js";
 
 const inputs = document.querySelectorAll('[data-type]');
-
 inputs.forEach(input => {
+  if (input.dataset.type === 'search') {
+    input.addEventListener('input', (e) => searchProduct(e.target.value));
+    return;
+  }
   if (input.dataset.type === 'price') {
     SimpleMaskMoney.setMask(input, {
       prefix: 'R$ ',

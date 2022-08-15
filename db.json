@@ -1,0 +1,148 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "imageURL": "assets/img/console/console-xbox-series-x.jpg",
+      "name": "Console Xbox Series X",
+      "price": "00,00",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Venenatis urna cursus eget nunc scelerisque viverra mauris. Metus aliquam eleifend mi in nulla posuere.",
+      "category": "consoles"
+    },
+    {
+      "id": 2,
+      "imageURL": "assets/img/console/console-ps5.jpg",
+      "name": "Console PS5",
+      "price": "00,00",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Venenatis urna cursus eget nunc scelerisque viverra mauris. Metus aliquam eleifend mi in nulla posuere.",
+      "category": "consoles"
+    },
+    {
+      "id": 3,
+      "imageURL": "assets/img/console/console-nintendo-switch.jpg",
+      "name": "Console Nintendo Switch",
+      "price": "00,00",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Venenatis urna cursus eget nunc scelerisque viverra mauris. Metus aliquam eleifend mi in nulla posuere.",
+      "category": "consoles"
+    },
+    {
+      "id": 4,
+      "imageURL": "assets/img/console/console-ps4.jpg",
+      "name": "Console PS4",
+      "price": "00,00",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Venenatis urna cursus eget nunc scelerisque viverra mauris. Metus aliquam eleifend mi in nulla posuere.",
+      "category": "consoles"
+    },
+    {
+      "id": 5,
+      "imageURL": "assets/img/console/console-playstation-1.jpg",
+      "name": "Console PS1",
+      "price": "00,00",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Venenatis urna cursus eget nunc scelerisque viverra mauris. Metus aliquam eleifend mi in nulla posuere.",
+      "category": "consoles"
+    },
+    {
+      "id": 6,
+      "imageURL": "assets/img/console/console-nintendo-ds.jpg",
+      "name": "Console Nintendo DS",
+      "price": "00,00",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Venenatis urna cursus eget nunc scelerisque viverra mauris. Metus aliquam eleifend mi in nulla posuere.",
+      "category": "consoles"
+    },
+    {
+      "id": 7,
+      "imageURL": "assets/img/controllers/controller-ps4-black.jpg",
+      "name": "Controle PS4 Preto",
+      "price": "00,00",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Venenatis urna cursus eget nunc scelerisque viverra mauris. Metus aliquam eleifend mi in nulla posuere.",
+      "category": "controles"
+    },
+    {
+      "id": 8,
+      "imageURL": "assets/img/controllers/controller-xbox-white.jpg",
+      "name": "Controle Xbox Branco",
+      "price": "00,00",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Venenatis urna cursus eget nunc scelerisque viverra mauris. Metus aliquam eleifend mi in nulla posuere.",
+      "category": "controles"
+    },
+    {
+      "id": 9,
+      "imageURL": "assets/img/controllers/controller-switch.jpg",
+      "name": "Controle Nintendo Switch",
+      "price": "00,00",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Venenatis urna cursus eget nunc scelerisque viverra mauris. Metus aliquam eleifend mi in nulla posuere.",
+      "category": "controles"
+    },
+    {
+      "id": 10,
+      "imageURL": "assets/img/controllers/controller-ps4-red.jpg",
+      "name": "Controle PS4 Vermelho",
+      "price": "00,00",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Venenatis urna cursus eget nunc scelerisque viverra mauris. Metus aliquam eleifend mi in nulla posuere.",
+      "category": "controles"
+    },
+    {
+      "id": 11,
+      "imageURL": "assets/img/controllers/controller-ps2.jpg",
+      "name": "Controle PS2",
+      "price": "00,00",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Venenatis urna cursus eget nunc scelerisque viverra mauris. Metus aliquam eleifend mi in nulla posuere.",
+      "category": "controles"
+    },
+    {
+      "id": 12,
+      "imageURL": "assets/img/controllers/controller-snes.jpg",
+      "name": "Controle Super Nintendo",
+      "price": "00,00",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Venenatis urna cursus eget nunc scelerisque viverra mauris. Metus aliquam eleifend mi in nulla posuere.",
+      "category": "controles"
+    },
+    {
+      "id": 13,
+      "imageURL": "assets/img/action-figures/action-figures-pkn-1.jpg",
+      "name": "Action Figure Pokemon",
+      "price": "00,00",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Venenatis urna cursus eget nunc scelerisque viverra mauris. Metus aliquam eleifend mi in nulla posuere.",
+      "category": "action-figures"
+    },
+    {
+      "id": 14,
+      "imageURL": "assets/img/action-figures/action-figure-bs.jpg",
+      "name": "Action Figure Bowser",
+      "price": "00,00",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Venenatis urna cursus eget nunc scelerisque viverra mauris. Metus aliquam eleifend mi in nulla posuere.",
+      "category": "action-figures"
+    },
+    {
+      "id": 15,
+      "imageURL": "assets/img/action-figures/action-figure-kakashi.jpg",
+      "name": "Action Figure Kakashi",
+      "price": "00,00",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Venenatis urna cursus eget nunc scelerisque viverra mauris. Metus aliquam eleifend mi in nulla posuere.",
+      "category": "action-figures"
+    },
+    {
+      "id": 16,
+      "imageURL": "assets/img/action-figures/action-figure-lz.jpg",
+      "name": "Action Figure Link",
+      "price": "00,00",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Venenatis urna cursus eget nunc scelerisque viverra mauris. Metus aliquam eleifend mi in nulla posuere.",
+      "category": "action-figures"
+    },
+    {
+      "id": 17,
+      "imageURL": "assets/img/action-figures/action-figure-pkn.jpg",
+      "name": "Action Figure Charizard",
+      "price": "00,00",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Venenatis urna cursus eget nunc scelerisque viverra mauris. Metus aliquam eleifend mi in nulla posuere.",
+      "category": "action-figures"
+    },
+    {
+      "id": 18,
+      "imageURL": "assets/img/action-figures/action-figures-boo-toad.jpg",
+      "name": "Action Figure Boo",
+      "price": "00,00",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Venenatis urna cursus eget nunc scelerisque viverra mauris. Metus aliquam eleifend mi in nulla posuere.",
+      "category": "action-figures"
+    }
+  ]
+}
