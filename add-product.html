@@ -52,13 +52,15 @@
   <main class="add-product container section-bg">
     <form action="" class="add-product__form form" data-form>
       <legend class="form__legend">Adicionar novo produto</legend>
-      <div class="form__field form__field__input form__field--file-input-container">
-        <label for="url" class="form__field__label--file-input dark-button">Selecione uma imagem</label>
-        <input type="file" name="url" id="url" accept="image/png, image/jpeg, image/jpg" class="form__field__file-input" data-type="url" required>
-        <div>
-          <span class="form__field__file-name" data-file="name">Nenhuma imagem selecionada</span>
-          <span class="form__field__error form__field__error--file-input" data-error></span>
-        </div>
+      <div class="form__field--file-input-container">
+          <div class="form__field">
+            <input type="text" name="url" id="url" class="form__field__input" placeholder="URL da imagem" data-type="url" required>
+            <label for="url" class="form__field__label">URL da imagem</label>
+            <span class="form__field__error" data-error></span>
+          </div>
+          <p>Ou</p>
+          <label for="file" class="form__field__label--file-input dark-button">Procure no seu computador</label>
+          <input type="file" name="file" id="file" accept="image/png, image/jpeg, image/jpg" class="form__field__file-input" data-type="file">
       </div>
       <div class="form__field">
         <input type="text" name="name" id="name" class="form__field__input" placeholder="Nome do produto" maxlength="20" data-type="name" required>
@@ -148,6 +150,7 @@
   </footer>
   <script src="https://kit.fontawesome.com/9555ff22ed.js" crossorigin="anonymous"></script>
   <script src="https://github.com/codermarcos/simple-mask-money/releases/download/v3.0.0/simple-mask-money.js"></script>
+  <script type="module" src="assets/js/controller/add-product-controller.js"></script>
   <script type="module" src="assets/js/main.js"></script>
 </body>
 

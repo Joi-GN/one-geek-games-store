@@ -29,7 +29,7 @@ const errorMessages = {
     valueMissing: 'O campo de senha está vazio'
   },
   url: {
-    valueMissing: 'Escolha uma imagem'
+    valueMissing: 'Nenhuma imagem selecionada'
   },
   category: {
     valueMissing: 'O campo de categoria está vazio'

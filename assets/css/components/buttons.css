@@ -1,4 +1,5 @@
 .button {
+  border: 1px solid var(--brand-color);
   font-size: 1rem;
   font-weight: 500;
   height: 50px;
@@ -8,25 +9,20 @@
 
 .light-button {
   background-color: var(--brand-light);
-  border: 1px solid var(--brand-color);
   color: var(--brand-color);
 }
 
 .light-button:hover {
   background-color: var(--brand-color);
-  border: none;
   color: var(--brand-light);
 }
 
 .dark-button {
   background-color: var(--brand-color);
-  border: none;
-  color: var(--brand-light);
-  
+  color: var(--brand-light);  
 }
 
 .dark-button:hover {
   background-color: var(--brand-light);
-  border: 1px solid var(--brand-color);
   color: var(--brand-color);
 }
