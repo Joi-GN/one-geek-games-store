@@ -13,7 +13,7 @@
   <link rel="stylesheet" href="./assets/css/header/header.css">
   <link rel="stylesheet" href="./assets/css/header/header-search.css">
   <link rel="stylesheet" href="./assets/css/products/products.css">
-  <link rel="stylesheet" href="./assets/css/products/product-list-item-icons.css">
+  <link rel="stylesheet" href="./assets/css/products/product.css">
   <link rel="stylesheet" href="./assets/css/components/form.css">
   <link rel="stylesheet" href="./assets/css/components/buttons.css">
   <link rel="stylesheet" href="./assets/css/components/footer.css">
@@ -53,8 +53,16 @@
       <button class="header__login-button button light-button">Login</button>
     </a>
   </header>
-  <main>
-    
+  <main class="container section-bg">
+    <div class="product" data-product>
+
+    </div>
+    <div class="similar-products">
+      <h3 class="similar-products__title header__title">Produtos similares</h3>
+      <ul class="product__list" data-similar>
+        
+      </ul>
+    </div>
   </main>
   <footer class="footer">
     <div class="footer__content container">
@@ -115,6 +123,7 @@
   </footer>
   <script src="https://kit.fontawesome.com/9555ff22ed.js" crossorigin="anonymous"></script>
   <script type="module" src="./assets/js/main.js"></script>
+  <script type="module" src="./assets/js/controller/product-detail-controller.js"></script>
 </body>
 
 </html>

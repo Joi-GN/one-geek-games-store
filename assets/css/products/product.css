@@ -1,0 +1,40 @@
+.product__info {
+  margin: auto 0;
+}
+
+.product__info__title {
+  font-size: 2.5rem;
+  font-weight: 700;
+}
+
+.product__info__price {
+  font-weight: 500;
+  margin: 1rem 0;
+}
+
+.similar-products__title {
+  margin: 2rem 0;
+}
+
+@media screen and (min-width: 0) {
+  .product {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    padding: 2rem 0;
+  }
+
+  .product__img {
+    width: 100%;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .product {
+    flex-direction: row;
+  }
+
+  .product__img {
+    width: 50%;
+  }
+}
