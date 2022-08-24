@@ -1,18 +1,21 @@
 .product__list__item__icons {
-  color: var(--brand-light);
+  display: flex;
+  gap: .5rem;
   position: absolute;
   right: .5rem;
   top: .5rem;
 }
 
 .product__list__item__button {
-  background: transparent;
+  background: var(--brand-grey-1);
   border: none;
+  border-radius: 30%;
+  padding: .2rem;
   transition: .5s linear;
 }
 
 .product__list__item__button:hover {
-  font-size: 1rem;
+  opacity: 0.5;
 }
 
 .product__list__item__icons__delete:active,
@@ -23,5 +26,5 @@
 .product__list__item__icons__delete,
 .product__list__item__icons__edit {
   cursor: pointer;
-  color: var(--brand-light);
+  color: var(--brand-color-light);
 }

@@ -5,6 +5,7 @@
 
 *{
 	box-sizing: border-box;
+	scroll-behavior: smooth;
 }
 
 html, body, div, span, applet, object, iframe,

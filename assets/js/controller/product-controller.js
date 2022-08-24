@@ -39,8 +39,8 @@ const render = async () => {
       //REGEX TO GET PATHNAME OF WINDOW'S LOCATION
       const pathnameRegex = /[\w-]+\.html/;
       const pathname = pathnameRegex.exec(window.location.pathname)[0];
-      if (pathname === 'all-products.html') {
-        //ADD BUTTONS TO PRODUCT IF PATHNAME IS all-products
+      if (pathname === 'admin-menu.html') {
+        //ADD BUTTONS TO PRODUCT IF ITS ADMIN MENU
         productLi.appendChild(productButtons(product.id));
         //ADD EVENT LISTENER TO DELETE BUTTON
         const deleteButton = productLi.querySelector(`[data-delete]`)
