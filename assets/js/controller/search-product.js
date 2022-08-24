@@ -1,4 +1,4 @@
-import { productServices } from "./service/product-service.js"
+import { productServices } from "../service/product-service.js"
 
 const searchResultsDiv = document.getElementById('search-results');
 

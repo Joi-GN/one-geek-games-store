@@ -1,4 +1,4 @@
-import { searchProduct } from "./search-product.js";
+import { searchProduct } from "./controller/search-product.js";
 import { validate } from "./validate-form.js";
 
 const inputs = document.querySelectorAll('[data-type]');
