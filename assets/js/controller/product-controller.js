@@ -19,7 +19,7 @@ const render = async () => {
         const deleteButton = productLi.querySelector(`[data-delete]`)
         deleteButton.addEventListener('click', (e) => {
           const id = e.target.parentElement.dataset.delete;
-          productServices.removeProduct(id)
+          if (confirm('Tem certeza que deseja deletar o produto?')) productServices.removeProduct(id);
         })
       }
       productListElement.appendChild(productLi);

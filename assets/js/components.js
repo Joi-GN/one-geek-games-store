@@ -18,7 +18,7 @@ const productButtons = (id) => {
     <button class="product__list__item__button" data-delete="${id}">
       <i class="fa-solid fa-trash product__list__item__icons__delete"></i>
     </button>
-    <a href="./add-product.html?id=${id}" class="product__list__item__button">
+    <a href="./edit-product.html?id=${id}" class="product__list__item__button">
       <i class="fa-solid fa-pen-to-square product__list__item__icons__edit"></i>
     </a>
   `

@@ -21,16 +21,16 @@ const categoryInput = form.querySelector('[data-type="category"]');
   catch (err) {
     console.error(err);
   }
-})()
 
-form.addEventListener('submit', async (e) => {
-  e.preventDefault();
-  //IF DESCRIPTION IS EMPTY OR WHITESPACE ONLY, SET DEFAULT DESCRIPTION
-  if (descriptionInput.value == '' || /\s+/.test(descriptionInput.value)) descriptionInput.value = 'Nenhuma descrição informada.';
-  try {
-    await productServices.updateProduct(id, urlInput.value, nameInput.value, priceInput.formatToNumber(), descriptionInput.value, categoryInput.value.toLowerCase());
-  }
-  catch (err) {
-    console.error(err)
-  }
-})
+  form.addEventListener('submit', async (e) => {
+    e.preventDefault();
+    //IF DESCRIPTION IS EMPTY, SET DEFAULT DESCRIPTION
+    if (descriptionInput.value == '') descriptionInput.value = 'Nenhuma descrição informada.';
+    try {
+      await productServices.updateProduct(id, urlInput.value, nameInput.value, priceInput.formatToNumber(), descriptionInput.value, categoryInput.value.toLowerCase());
+    }
+    catch (err) {
+      console.error(err)
+    }
+  })
+})()

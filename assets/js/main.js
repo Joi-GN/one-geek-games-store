@@ -16,13 +16,13 @@ inputs.forEach(input => {
       return;
     case 'price':
       SimpleMaskMoney.setMask(input, {
-            prefix: 'R$ ',
-            fixed: true,
-            fractionDigits: 2,
-            decimalSeparator: ',',
-            thousandsSeparator: '.',
-            cursor: 'end'
-          })
+        prefix: 'R$ ',
+        fixed: true,
+        fractionDigits: 2,
+        decimalSeparator: ',',
+        thousandsSeparator: '.',
+        cursor: 'end'
+      })
       break;
   }
   input.addEventListener('blur', (e) => validate(e.target))

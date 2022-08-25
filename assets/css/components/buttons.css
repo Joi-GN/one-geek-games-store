@@ -1,9 +1,9 @@
 .button {
   border: 1px solid var(--brand-color);
   font-size: 1rem;
-  font-weight: 500;
-  height: 50px;
   max-width: 182px;
+  padding: 1rem;
+  text-align: center;
   transition: .3s ease;
 }
 

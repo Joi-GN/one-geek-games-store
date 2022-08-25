@@ -15,7 +15,7 @@
 }
 
 .product__list__item__button:hover {
-  opacity: 0.5;
+  opacity: 0.6;
 }
 
 .product__list__item__icons__delete:active,
@@ -26,5 +26,5 @@
 .product__list__item__icons__delete,
 .product__list__item__icons__edit {
   cursor: pointer;
-  color: var(--brand-color-light);
+  color: var(--brand-light);
 }
