@@ -7,6 +7,8 @@
 * [Conteúdo do site](#contéudo-do-site)
 * [Como acessar e utilizar o site](#como-acessar-e-utilizar-o-site)
 
+<br>
+
 ## Descrição do Projeto
 Projeto desenvolvido para o desafio do programa Oracle Next Education. O desafio consiste em desenvolver o FrontEnd de um site E-commerce fictício. Para isso, utilizei:
 1. HTML, CSS e JavaScript, 
@@ -14,24 +16,36 @@ Projeto desenvolvido para o desafio do programa Oracle Next Education. O desafio
 3. **JSON-server** para mockar uma REST API,
 4. **validações de dados de formulários**.
 
+<br>
+
 ## Contéudo do site:
-> 🟡 Página inicial (index) com ferramenta de busca para os produtos oferecidos, link para login como admin, banner com informações relevantes do momento, galeria com informações dos produtos (imagem, nome, preço, link para página do produto);
-![](screenshot-gifs/index-screenshot.png)
+> 🟡 Página inicial (index) com ferramenta de busca para os produtos oferecidos, link para login como admin, banner com informações relevantes do momento, galeria com informações dos produtos (imagem, nome, preço, link para página do produto):
+>> ![](screenshot-gifs/index-screenshot.png)
 
-> 🟡 Página para iniciar sessão (login) e ser redirecionado para o menu administrador;
-![](screenshot-gifs/login-page-screenshot.png)
+<br>
 
-> 🟡 Menu administrador, onde pode-se adicionar, editar e remover produtos (CRUD);
-![](screenshot-gifs/admin-menu-video.gif)
+> 🟡 Página para iniciar sessão (login) e ser redirecionado para o menu administrador:
+>> ![](screenshot-gifs/login-page-screenshot.png)
 
-> 🟡 Página do produto individual com todas as suas informações mais a seção de produtos similares;
-![](screenshot-gifs/product-page-screenshot.png)
+<br>
 
-> 🟡 Todas as páginas possuem um rodapé com um formúlario para contato e outros links úteis;
-![](screenshot-gifs/footer-screenshot.png)
+> 🟡 Menu administrador, onde pode-se adicionar, editar e remover produtos (CRUD):
+>> ![](screenshot-gifs/admin-menu-gif.gif)
 
-> 🟡 Responsividade para várias resoluções de telas.
-![](screenshot-gifs/responsive-video.gif)
+<br>
+
+> 🟡 Página do produto individual com todas as suas informações mais a seção de produtos similares:
+>> ![](screenshot-gifs/product-page-screenshot.png)
+
+<br>
+
+> 🟡 Todas as páginas possuem um rodapé com um formúlario para contato e outros links úteis:
+>> ![](screenshot-gifs/footer-screenshot.png)
+
+<br>
+
+> 🟡 Responsividade para várias resoluções de telas:
+>> ![](screenshot-gifs/responsive-gif.gif)
 
 ## Como acessar e utilizar o site
 
