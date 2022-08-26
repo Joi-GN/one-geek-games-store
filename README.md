@@ -1,33 +1,37 @@
-# <img src="favicon.ico" height=30px> ONE Geek Games Store | Site E-commerce
+ <h1 align="center"> <img src="assets/img/Logo.png" height=90px>  
+ <br> One Geek Games Store | Site E-commerce
+ </h1>
 
-Projeto desenvolvido para o desafio do programa Oracle Next Education. O desafio consiste em desenvolver o FrontEnd de um site E-commerce. Para isso, utilizei:
+## Índice
+* [Descrição do Projeto](#descrição-do-projeto)
+* [Conteúdo do site](#contéudo-do-site)
+* [Como acessar e utilizar o site](#como-acessar-e-utilizar-o-site)
+
+## Descrição do Projeto
+Projeto desenvolvido para o desafio do programa Oracle Next Education. O desafio consiste em desenvolver o FrontEnd de um site E-commerce fictício. Para isso, utilizei:
 1. HTML, CSS e JavaScript, 
 2. operações **CRUD** com **fetch API**, 
 3. **JSON-server** para mockar uma REST API,
 4. **validações de dados de formulários**.
 
-## Atalhos
-- [Conteúdo do site](#site-para-e-commerce-contém)
-- [Como acessar e utilizar o site](#como-acessar-e-utilizar-o-site)
+## Contéudo do site:
+> 🟡 Página inicial (index) com ferramenta de busca para os produtos oferecidos, link para login como admin, banner com informações relevantes do momento, galeria com informações dos produtos (imagem, nome, preço, link para página do produto);
+![](screenshot-gifs/index-screenshot.png)
 
-## O site E-commerce contém:
-> Página inicial (index) com ferramenta de busca para os produtos oferecidos, link para login como admin, banner com informações relevantes do momento, galeria com informações dos produtos (imagem, nome, preço, link para página do produto);
-![]()
+> 🟡 Página para iniciar sessão (login) e ser redirecionado para o menu administrador;
+![](screenshot-gifs/login-page-screenshot.png)
 
-> Página para iniciar sessão (login) e ser redirecionado para o menu administrador;
-![]()
+> 🟡 Menu administrador, onde pode-se adicionar, editar e remover produtos (CRUD);
+![](screenshot-gifs/admin-menu-video.gif)
 
-> Menu administrador, onde pode-se adicionar, editar e remover produtos (CRUD);
-![]()
+> 🟡 Página do produto individual com todas as suas informações mais a seção de produtos similares;
+![](screenshot-gifs/product-page-screenshot.png)
 
-> Página do produto individual com todas as suas informações mais a seção de produtos similares;
-![]()
+> 🟡 Todas as páginas possuem um rodapé com um formúlario para contato e outros links úteis;
+![](screenshot-gifs/footer-screenshot.png)
 
-> Todas as páginas possuem um rodapé com um formúlario para contato e outros links úteis;
-![]()
-
-> Responsividade para várias resoluções de telas.
-![]()
+> 🟡 Responsividade para várias resoluções de telas.
+![](screenshot-gifs/responsive-video.gif)
 
 ## Como acessar e utilizar o site
 
