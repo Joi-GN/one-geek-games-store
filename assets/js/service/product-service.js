@@ -1,4 +1,4 @@
-const DATABASE_URL = 'http://localhost:3000/products'
+const DATABASE_URL = 'https://my-json-server.typicode.com/joi-gn/one-geek-games-store/products'
 
 const productList = async () => {
   const response = await fetch(DATABASE_URL)
