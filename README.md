@@ -36,6 +36,6 @@ Para a demo do site utilizei o My JSON Server que cria um servidor online e por 
 Se você quiser checar o site com todas as funcionalidades, siga os passos abaixo:
 
 1. Baixe o repositório;
-2. Utilizando um editor de texto ou de código, altere o valor da variável `DATABASE_URL` para `http://localhost:3000/products` no arquivo [product-service.js](assets/js/service/product-service.js);
+2. Utilizando um editor de texto ou de código, altere o valor da constante `DATABASE_URL` para `http://localhost:3000/products` no arquivo [product-service.js](assets/js/service/product-service.js);
 3. Instale o JSON SERVER [(link do repositório e instruções aqui)](https://github.com/typicode/json-server), após a instalação, inicie o servidor na pasta principal do projeto;
 4. Utilize Live Server, Http Server ou alguma outra ferramenta para hospedar as páginas HTML.
